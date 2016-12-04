@@ -4,38 +4,28 @@ body{
 }
 
 
-
-
-.top-bar {
-  background-color: #fff;
-  color: black;
-  height: auto;
-  position: fixed;
-  z-index: 999999;
-  width: 100%;
-  /*border-bottom: 2px solid black;*/
-}
-
 .title-container {
   display: flex;
-  position: fixed;
-  z-index: 99999;
+  justify-content: space-between;
   padding-left: 0;
   padding-top: 2rem;
+  padding-right: 0;
   background-color: white;
 }
 
 .button-container {
-  margin-left: 21rem;
-  margin-top: -2rem;
+  /*margin-top: -2rem;*/
 }
+
+#client {
+  margin-right: 1rem;
+}
+
 
 .button {
   font-size: 1rem;
   height: auto;
   width: auto;
-  margin-left: 1rem;
-  padding: .5rem;
   background-color: rgb(13, 100, 181);
 }
 
