@@ -137,6 +137,15 @@ h3 {
   font-family: 'Roboto Slab', serif;
 }
 
+.dates {
+  text-decoration: underline;
+}
+
+.important-dates {
+  font-weight: bolder;
+}
+
+
 
 
 @media only all and (max-width: 680px) {
@@ -156,6 +165,12 @@ h3 {
     }
     #panel1d-heading,#panel2d-heading,#panel3d-heading,#panel4d-heading,#panel5d-heading,#panel6d-heading,#panel7d-heading,#panel8d-heading {
       border-radius: 0rem;
+      margin-right: 2rem;
+      margin-left: 2rem;
+    }
+    h4 {
+      margin-left: 2rem;
+      margin-right: 2rem;
     }
 }
 
