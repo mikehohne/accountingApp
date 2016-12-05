@@ -4,14 +4,35 @@ body{
 }
 
 
+h4 {
+  font-size: 1rem;
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+}
 
 #contentHeader {
   font-family: 'Roboto Slab', serif;
+  font-size: 2rem;
+  text-align: center;
 }
 
 #imageText {
   font-family: 'Roboto Slab', serif;
   font-weight: lighter;
+  color: white;
+  width: 40rem;
+}
+
+#imageLogo {
+  width: 10rem;
+  height: 8rem;
+}
+
+.image-content-container {
+  margin-top: -14.25rem;
+  margin-left: 1.25rem;
+  height: 10rem;
+  width: 20rem;
 }
 
 #company-name {
@@ -22,11 +43,7 @@ body{
   font-family: 'Roboto', sans-serif;
 }
 
-#staffNames {
-  font-family: 'Roboto', sans-serif;
-  font-size: 1rem;
-  text-transform: capitalize;
-}
+
 
 .title-container {
   display: flex;
@@ -48,13 +65,13 @@ body{
   font-size: 1rem;
   height: auto;
   width: auto;
-  background-color: rgb(13, 100, 181);
+  background-color: #05512F;
   font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
 }
 
 .button:hover {
-  background-color: rgb(18, 41, 142);
+  background-color: #04341E;
 }
 
 .staffImgs {
@@ -64,16 +81,100 @@ body{
 }
 
 
+.footer {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.footer > h5 {
+  margin-top: -1rem;
+  margin-bottom: 2rem;
+}
+
+i {
+  color: #05512F;
+}
+
+i:hover {
+  color: #04341E;
+}
+
+
+
+.social-icons > li {
+  display: inline-block;
+  margin-top: -2rem;
+  margin-right: 1rem;
+}
+
+h5 {
+  font-family: 'Roboto Slab', serif;
+}
+
+#panel1d-heading,#panel2d-heading,#panel3d-heading,#panel4d-heading,#panel5d-heading,#panel6d-heading,#panel7d-heading,#panel8d-heading {
+  background-color: #05512F;
+  color: white;
+  border-radius: 1rem;
+}
+#panel1d-heading:hover,#panel2d-heading:hover,#panel3d-heading:hover,#panel4d-heading:hover,#panel5d-heading:hover,#panel6d-heading:hover,#panel7d-heading:hover,#panel8d-heading:hover {
+  background-color: #04341E;
+  color: white;
+}
+
+#staffNames {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  text-transform: capitalize;
+}
+
+h6 {
+  color: white;
+}
+
+h3 {
+  font-family: 'Roboto Slab', serif;
+}
+
+
+
 @media only all and (max-width: 680px) {
     #company-name {
       font-size: 2rem;
     }
     .staffImgs {
-      width: 10rem;
-      height: 13rem;
+      width: 8rem;
+      height: 10rem;
     }
     .title-container {
       display: flex;
       justify-content: center;
+    }
+    .content {
+      font-size: .75rem;
+    }
+    #panel1d-heading,#panel2d-heading,#panel3d-heading,#panel4d-heading,#panel5d-heading,#panel6d-heading,#panel7d-heading,#panel8d-heading {
+      border-radius: 0rem;
+    }
+}
+
+@media only all and (max-width: 375px) {
+    .staffImgs {
+      width: 5rem;
+      height: 7rem;
+      border-radius: 0;
+    }
+    #staffNames {
+      font-size: .75rem;
+    }
+    #contentHeader {
+      font-size: 1rem;
+    }
+    .subheader {
+      font-size: .75rem;
+    }
+    h4 {
+      font-size: .75rem;
     }
 }
