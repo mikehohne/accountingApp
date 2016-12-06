@@ -138,12 +138,25 @@ h3 {
 }
 
 .dates {
-  text-decoration: underline;
+  font-size: 2rem;
+  font-weight: lighter;
+  font-family: 'Roboto', sans-serif;
+
 }
 
+
 .important-dates {
-  font-weight: bold;
+  font-weight: lighter;
+  font-size: 1rem;
 }
+
+.information-container {
+  background-color: white;
+  border: none;
+}
+
+
+
 
 
 
@@ -171,7 +184,14 @@ h3 {
       margin-left: 2rem;
       margin-right: 2rem;
     }
-}
+
+
+
+    .date-container {
+      margin-left: 2rem;
+      margin-right: 2rem;
+    }
+
 
 @media only all and (max-width: 375px) {
     .staffImgs {
