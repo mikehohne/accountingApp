@@ -160,7 +160,9 @@ h3 {
 
 .information-container {
   background-color: white;
-  border: none;
+  border: 2px solid black;
+  display: flex;
+  justify-content: space-around;
 }
 
 
