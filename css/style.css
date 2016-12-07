@@ -101,6 +101,14 @@ i:hover {
   color: #04341E;
 }
 
+.info-links {
+  color:#05512F;
+}
+
+.info-links:hover {
+  color: #A3B5AD;
+}
+
 
 
 .social-icons > li {
