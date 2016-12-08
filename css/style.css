@@ -3,6 +3,9 @@ body{
   font-weight: lighter;
 }
 
+#mainImage {
+}
+
 
 h4 {
   font-size: 1rem;
@@ -24,12 +27,12 @@ h4 {
 }
 
 #imageLogo {
-  width: 10rem;
-  height: 8rem;
+  width: 8rem;
+  height: 6rem;
 }
 
 .image-content-container {
-  margin-top: -14.25rem;
+  margin-top: -13.25rem;
   margin-left: 1.25rem;
   height: 10rem;
   width: 20rem;
@@ -122,9 +125,8 @@ h5 {
 }
 
 #panel1d-heading,#panel2d-heading,#panel3d-heading,#panel4d-heading,#panel5d-heading,#panel6d-heading,#panel7d-heading,#panel8d-heading {
-  background-color: #05512F;
+  background-color: grey;
   color: white;
-  border-radius: 1rem;
 }
 #panel1d-heading:hover,#panel2d-heading:hover,#panel3d-heading:hover,#panel4d-heading:hover,#panel5d-heading:hover,#panel6d-heading:hover,#panel7d-heading:hover,#panel8d-heading:hover {
   background-color: #04341E;
@@ -146,9 +148,10 @@ h3 {
 }
 
 .dates {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: lighter;
   font-family: 'Roboto', sans-serif;
+  color: #05512F;
 
 }
 
@@ -174,6 +177,7 @@ h3 {
   margin-right: 2rem;
   margin-left: 2rem;
 }
+
 
 
 
