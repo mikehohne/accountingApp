@@ -1,9 +1,16 @@
+
+
 body{
   -webkit-font-smoothing: antialiased;
   font-weight: lighter;
 }
 
 #mainImage {
+}
+
+#clientPortal {
+  text-decoration: none;
+  color: white;
 }
 
 
@@ -187,9 +194,10 @@ h3 {
 
 
 
-@media only all and (max-width: 680px) {
+@media only all and (max-width: 768px) {
     #company-name {
       font-size: 2rem;
+      margin-right: 1rem;
     }
     .staffImgs {
       width: 8rem;
@@ -199,17 +207,20 @@ h3 {
       display: flex;
       justify-content: center;
     }
+    #mainImage, #hrRule{
+      display: none;
+    }
     .content {
       font-size: .75rem;
     }
     #panel1d-heading,#panel2d-heading,#panel3d-heading,#panel4d-heading,#panel5d-heading,#panel6d-heading,#panel7d-heading,#panel8d-heading {
       border-radius: 0rem;
-      margin-right: 2rem;
-      margin-left: 2rem;
+      margin-right: 0rem;
+      margin-left: 0rem;
     }
     h4 {
-      margin-left: 2rem;
-      margin-right: 2rem;
+      margin-left: 0rem;
+      margin-right: 0rem;
     }
 
 
@@ -219,6 +230,11 @@ h3 {
       width: 5rem;
       height: 7rem;
       border-radius: 0;
+    }
+    #panel1d-heading,#panel2d-heading,#panel3d-heading,#panel4d-heading,#panel5d-heading,#panel6d-heading,#panel7d-heading,#panel8d-heading {
+      border-radius: 0rem;
+      margin-right: 0rem;
+      margin-left: 0rem;
     }
     #staffNames {
       font-size: .75rem;
