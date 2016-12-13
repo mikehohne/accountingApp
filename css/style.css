@@ -174,7 +174,8 @@ h3 {
   background-color: white;
   border: none;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+
 }
 
 .information {
@@ -188,11 +189,7 @@ h3 {
 }
 
 
-
-
-
-
-
+/*MEDIA QUERIES*/
 
 @media only all and (max-width: 768px) {
     #company-name {
