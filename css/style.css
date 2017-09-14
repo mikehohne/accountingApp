@@ -1,203 +1,248 @@
-
-
-body{
-  -webkit-font-smoothing: antialiased;
-  font-weight: lighter;
+body {
+    -webkit-font-smoothing: antialiased;
+    font-weight: lighter;
+    margin-top: 2rem;
 }
+
 
 #clientPortal {
-  text-decoration: none;
-  color: white;
+    text-decoration: none;
+    color: white;
 }
 
-
 h4 {
-  font-size: 1rem;
-  text-align: left;
-  font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
 }
 
 #contentHeader {
-  font-family: 'Roboto Slab', serif;
-  font-size: 2rem;
-  text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: 2rem;
+    text-align: center;
 }
 
 #contentHeader > p {
-  text-align: left;
+    text-align: left;
 }
 
 #imageText {
-  font-family: 'Roboto Slab', serif;
-  font-weight: lighter;
-  color: white;
-  width: 40rem;
+    font-family: 'Roboto Slab', serif;
+    font-weight: lighter;
+    color: white;
+    width: 40rem;
+    text-shadow: 1px 1px 1px white;
 }
 
 #imageLogo {
-  width: 8rem;
-  height: 6rem;
+    width: 8rem;
+    height: 6rem;
 }
 
 .image-content-container {
-  margin-top: -13.25rem;
-  margin-left: 1.25rem;
-  height: 10rem;
-  width: 20rem;
+    margin-top: -13.25rem;
+    margin-left: 1.25rem;
 }
 
 #company-name {
-  font-family: 'Roboto Slab', serif;
+    font-family: 'Roboto Slab', sans-serif;
+    font-weight: lighter;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+
 }
 
 .subheader {
-  font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
-
-
 
 .title-container {
-  display: flex;
-  justify-content: space-between;
-  padding-left: 0;
-  padding-top: 2rem;
-  padding-right: 0;
-  background-color: white;
-  /*border: 1px solid black;*/
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0;
+    padding-top: 2rem;
+    padding-right: 0;
+    background-color: white;
+    /*border: 1px solid black;*/
 }
-
 
 #client {
-  margin-right: 1rem;
+    margin-right: 1rem;
 }
 
+.right {
+  border-radius: 25px;
+  -moz-box-shadow:    3px 3px 5px 6px #ccc;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  box-shadow:         3px 3px 5px 6px #ccc;
+}
 
 .button {
-  font-size: 1rem;
-  height: auto;
-  width: auto;
-  background-color: #05512F;
-  font-family: 'Roboto', sans-serif;
-  text-transform: uppercase;
+    font-size: 1rem;
+    height: auto;
+    width: auto;
+    background-color: #05512F;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
 }
 
 .button:hover {
-  background-color: #04341E;
+    background-color: #04341E;
+}
+
+#important-tax-docs {
+  text-align: center;
+  font-size: 27px;
+}
+
+.about-firm > p {
+  background-color: #f2f2f2;
+}
+
+#firm {
+  text-align: center;
+  font-size: 27px;
 }
 
 .staffImgs {
-  width: 12rem;
-  height: 15rem;
-  border-radius: 50%;
+    width: 12rem;
+    height: 15rem;
+    border-radius: 50%;
 }
 
+.columns {
+  padding: 0;
+}
 
 .footer {
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
-.footer > h5 {
-  margin-top: -1rem;
-  margin-bottom: 2rem;
+.footer>h5 {
+    margin-top: -1rem;
+    margin-bottom: 2rem;
 }
 
 i {
-  color: #05512F;
+    color: #05512F;
 }
 
 i:hover {
-  color: #04341E;
+    color: #04341E;
 }
 
 .info-links {
-  color:#05512F;
+    color: #05512F;
 }
 
 .info-links:hover {
-  color: #A3B5AD;
+    color: #A3B5AD;
 }
 
-.social-icons > li {
-  display: inline-block;
-  margin-top: -2rem;
-  margin-right: 1rem;
+.social-icons>li {
+    display: inline-block;
+    margin-top: -2rem;
+    margin-right: 1rem;
 }
 
 h5 {
-  font-family: 'Roboto Slab', serif;
+    font-family: 'Roboto Slab', serif;
+}
+
+.panel {
+  position: relative;
+  height: 18rem;
+}
+
+.panel a {
+  position: absolute;
+  bottom: 0;
+
 }
 
 .panel>:first-child {
-  text-align: center;
+    text-align: center;
 }
 
 .panel>:last-child {
-  text-align: center;
+    text-align: center;
 }
 
 
-#panel1d-heading,#panel2d-heading,#panel3d-heading,#panel4d-heading,#panel5d-heading,#panel6d-heading,#panel7d-heading,#panel8d-heading {
-  background-color: white;
-  border: 1px solid black;
-  color: white;
+
+#panel1d-heading,
+#panel2d-heading,
+#panel3d-heading,
+#panel4d-heading,
+#panel5d-heading,
+#panel6d-heading,
+#panel7d-heading,
+#panel8d-heading {
+    background-color: white;
+    border: 1px solid black;
+    color: white;
 }
-#panel1d-heading:hover,#panel2d-heading:hover,#panel3d-heading:hover,#panel4d-heading:hover,#panel5d-heading:hover,#panel6d-heading:hover,#panel7d-heading:hover,#panel8d-heading:hover {
-  background-color: #8CA298;
-  color: white;
+
+#panel1d-heading:hover,
+#panel2d-heading:hover,
+#panel3d-heading:hover,
+#panel4d-heading:hover,
+#panel5d-heading:hover,
+#panel6d-heading:hover,
+#panel7d-heading:hover,
+#panel8d-heading:hover {
+    background-color: #8CA298;
+    color: white;
 }
 
 #staffNames {
-  font-family: 'Roboto', sans-serif;
-  font-size: 1rem;
-  text-transform: capitalize;
-  color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    text-transform: capitalize;
+    color: black;
 }
 
 #tax-documents {
-  font-size: 2rem;
+    font-size: 2rem;
 }
 
 h6 {
-  color: white;
+    color: white;
 }
 
 h3 {
-  font-family: 'Roboto Slab', serif;
+    font-family: 'Roboto Slab', serif;
 }
 
 .dates {
-  font-size: 1.5rem;
-  font-weight: lighter;
-  font-family: 'Roboto', sans-serif;
-  color: #05512F;
-
+    font-size: 1.5rem;
+    font-weight: lighter;
+    font-family: 'Roboto', sans-serif;
+    color: #05512F;
 }
 
-
 .important-dates {
-  font-weight: lighter;
-  font-size: 1rem;
+    font-weight: lighter;
+    font-size: 1rem;
 }
 
 .information-container {
-  background-color: white;
-  border: none;
-  display: flex;
-  justify-content: space-between;
-
+    background-color: white;
+    border: none;
+    display: flex;
+    justify-content: space-between;
 }
 
 .information {
-  text-align: center;
+    text-align: center;
 }
 
 .icons {
-  font-size: 1.5rem;
-  margin-right: 2rem;
-  margin-left: 2rem;
+    font-size: 1.5rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
 }
 
 
@@ -205,56 +250,69 @@ h3 {
 
 @media only all and (max-width: 768px) {
     #company-name {
-      font-size: 2rem;
-      margin-right: 1rem;
+        font-size: 2rem;
+        margin-right: 1rem;
     }
     .staffImgs {
-      width: 8rem;
-      height: 10rem;
+        width: 8rem;
+        height: 10rem;
     }
     .title-container {
-      display: flex;
-      justify-content: center;
+        display: flex;
+        justify-content: center;
     }
-    #mainImage, #hrRule{
-      display: none;
+    #mainImage,
+    #hrRule {
+        display: none;
     }
     .content {
-      font-size: .75rem;
+        font-size: .75rem;
     }
-    #panel1d-heading,#panel2d-heading,#panel3d-heading,#panel4d-heading,#panel5d-heading,#panel6d-heading,#panel7d-heading,#panel8d-heading {
-      border-radius: 0rem;
-      margin-right: 0rem;
-      margin-left: 0rem;
-    }
-    h4 {
-      margin-left: 0rem;
-      margin-right: 0rem;
-    }
-
-
-
-@media only all and (max-width: 375px) {
-    .staffImgs {
-      width: 5rem;
-      height: 7rem;
-      border-radius: 0;
-    }
-    #panel1d-heading,#panel2d-heading,#panel3d-heading,#panel4d-heading,#panel5d-heading,#panel6d-heading,#panel7d-heading,#panel8d-heading {
-      border-radius: 0rem;
-      margin-right: 0rem;
-      margin-left: 0rem;
-    }
-    #staffNames {
-      font-size: .75rem;
-    }
-    #contentHeader {
-      font-size: 1rem;
-    }
-    .subheader {
-      font-size: .75rem;
+    #panel1d-heading,
+    #panel2d-heading,
+    #panel3d-heading,
+    #panel4d-heading,
+    #panel5d-heading,
+    #panel6d-heading,
+    #panel7d-heading,
+    #panel8d-heading {
+        border-radius: 0rem;
+        margin-right: 0rem;
+        margin-left: 0rem;
     }
     h4 {
-      font-size: .75rem;
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+    @media only all and (max-width: 375px) {
+        .staffImgs {
+            width: 5rem;
+            height: 7rem;
+            border-radius: 0;
+        }
+        #panel1d-heading,
+        #panel2d-heading,
+        #panel3d-heading,
+        #panel4d-heading,
+        #panel5d-heading,
+        #panel6d-heading,
+        #panel7d-heading,
+        #panel8d-heading {
+            border-radius: 0rem;
+            margin-right: 0rem;
+            margin-left: 0rem;
+        }
+        #staffNames {
+            font-size: .75rem;
+        }
+        #contentHeader {
+            font-size: 1rem;
+        }
+        .subheader {
+            font-size: .75rem;
+        }
+        h4 {
+            font-size: .75rem;
+        }
     }
 }
