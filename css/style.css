@@ -5,9 +5,6 @@ body{
   font-weight: lighter;
 }
 
-#mainImage {
-}
-
 #clientPortal {
   text-decoration: none;
   color: white;
@@ -24,6 +21,10 @@ h4 {
   font-family: 'Roboto Slab', serif;
   font-size: 2rem;
   text-align: center;
+}
+
+#contentHeader > p {
+  text-align: left;
 }
 
 #imageText {
@@ -129,6 +130,15 @@ h5 {
   font-family: 'Roboto Slab', serif;
 }
 
+.panel>:first-child {
+  text-align: center;
+}
+
+.panel>:last-child {
+  text-align: center;
+}
+
+
 #panel1d-heading,#panel2d-heading,#panel3d-heading,#panel4d-heading,#panel5d-heading,#panel6d-heading,#panel7d-heading,#panel8d-heading {
   background-color: white;
   border: 1px solid black;
@@ -146,7 +156,9 @@ h5 {
   color: black;
 }
 
-
+#tax-documents {
+  font-size: 2rem;
+}
 
 h6 {
   color: white;
