@@ -7,11 +7,18 @@ body {
 
 /*#146E32*/
 
+img {
+    /* max-width: 100%; */
+    height: 30rem;
+    width: 100%;
+}
+
 #mainImage {
   border-radius: .5rem;
-  -moz-box-shadow:    3px 3px 5px 6px #ccc;
-  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
-  box-shadow:         3px 3px 5px 6px #ccc;
+  -webkit-box-shadow: 0 8px 6px -6px black;
+  -moz-box-shadow: 0 8px 6px -6px black;
+  box-shadow: 0 8px 6px -6px black;
+
 }
 
 #clientPortal {
@@ -81,27 +88,33 @@ h4 {
 
 .right {
   border-radius: 2px;
-  -moz-box-shadow:    1px 1px 5px 6px #ccc;
-  -webkit-box-shadow: 1px 1px 5px 6px #ccc;
-  box-shadow:         1px 1px 5px 6px #ccc;
+  -webkit-box-shadow: 0 8px 6px -6px black;
+  -moz-box-shadow: 0 8px 6px -6px black;
+  box-shadow: 0 8px 6px -6px black;
   background-color: #146E32;
   font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
   opacity: .75;
 }
 
+.right:hover {
+    color: black;
+    background-color: white;
+}
 
-.button:hover {
-    background-color: #04341E;
+.right:active {
+    background-color: white;
+}
+
+.right:focus {
+    background-color: white;
+    color: black;
+    outline-style: none;
 }
 
 #important-tax-docs {
   text-align: center;
   font-size: 27px;
-}
-
-.about-firm > p {
-  background-color: #f2f2f2;
 }
 
 #firm {
@@ -113,6 +126,10 @@ h4 {
     width: 15rem;
     height: 15rem;
     border-radius: 50%;
+    -webkit-box-shadow: 0 8px 6px -6px black;
+    -moz-box-shadow: 0 8px 6px -6px black;
+    box-shadow: 0 8px 8px -6px black;
+    border: 1px solid white;
 }
 
 .columns {
@@ -159,6 +176,7 @@ i:hover {
     margin-right: 3rem;
     margin-left: 3rem;
     margin-top: -3rem;
+    cursor: pointer;
 }
 
 h5 {
@@ -168,9 +186,9 @@ h5 {
 .panel {
   position: relative;
   height: 18rem;
-  -moz-box-shadow:    2px 2px 4px 4px #ccc;
-  -webkit-box-shadow: 2px 2px 4px 4px #ccc;
-  box-shadow:         2px 2px 4px 4px #ccc;
+  -webkit-box-shadow: 0 8px 6px -6px black;
+  -moz-box-shadow: 0 8px 6px -6px black;
+       box-shadow: 0 8px 6px -6px black;
 }
 
 .panel a {
@@ -192,9 +210,9 @@ h5 {
   margin-top: -1rem;
   margin-bottom: 1rem;
   border-radius: .5rem;
-  -moz-box-shadow:    0px 0px 2px 2px #ccc;
-  -webkit-box-shadow: 0px 0px 2px 2px #ccc;
-  box-shadow:         0px 0px 2px 2px #ccc;
+  -webkit-box-shadow: 0 8px 6px -6px black;
+  -moz-box-shadow: 0 8px 6px -6px black;
+  box-shadow: 0 8px 6px -6px black;
 }
 
 
@@ -210,9 +228,9 @@ h5 {
     color: white;
     border-radius: .5rem;
     border: none;
-    -moz-box-shadow:    0px 0px 2px 2px #ccc;
-    -webkit-box-shadow: 0px 0px 2px 2px #ccc;
-    box-shadow:         0px 0px 2px 2px #ccc;
+    -webkit-box-shadow: 0 8px 6px -6px black;
+    -moz-box-shadow: 0 8px 6px -6px black;
+         box-shadow: 0 8px 6px -6px black;
     opacity: .75;
     height: 3.5rem;
 }
@@ -226,10 +244,7 @@ h5 {
 #panel7d-heading:hover,
 #panel8d-heading:hover {
     background-color: white;
-    color: #146E32;
-}
-
-.button {
+    color: black;
 }
 
 #staffNames {
@@ -284,14 +299,34 @@ h3 {
 
 /*MEDIA QUERIES*/
 
-@media only all and (max-width: 768px) {
+@media only all and (max-width: 868px) {
     #company-name {
         font-size: 2rem;
         margin-right: 1rem;
     }
+    .panel {
+        margin-right: 2rem;
+        margin-left: 2rem;
+    }
+    .panel a {
+        left: 20rem;
+        bottom: 3rem;
+    }
+    .accordion .accordion-navigation>.content.active, .accordion dd>.content.active {
+        margin-right: 2rem;
+        margin-left: 2rem;
+      }
+    .about-firm {
+        margin-right: 2rem;
+        margin-left: 2rem;
+    }
     .staffImgs {
-        width: 8rem;
-        height: 10rem;
+        width: 12rem;
+        height: 12rem;
+    }
+    #mobile-img {
+        margin-right: 2rem;
+        margin-left: 2rem;
     }
     .title-container {
         display: flex;
@@ -312,9 +347,8 @@ h3 {
     #panel6d-heading,
     #panel7d-heading,
     #panel8d-heading {
-        border-radius: 0rem;
-        margin-right: 0rem;
-        margin-left: 0rem;
+        margin-right: 2rem;
+        margin-left: 2rem;
     }
     h4 {
         margin-left: 0rem;
@@ -324,7 +358,6 @@ h3 {
         .staffImgs {
             width: 5rem;
             height: 7rem;
-            border-radius: 0;
         }
         #panel1d-heading,
         #panel2d-heading,
@@ -334,9 +367,8 @@ h3 {
         #panel6d-heading,
         #panel7d-heading,
         #panel8d-heading {
-            border-radius: 0rem;
-            margin-right: 0rem;
-            margin-left: 0rem;
+            margin-right: 2rem;
+            margin-left: 2rem;
         }
         #staffNames {
             font-size: .75rem;
