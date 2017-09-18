@@ -5,8 +5,6 @@ body {
     background-color: rgb(232,232,238);
 }
 
-/*#146E32*/
-
 img {
     /* max-width: 100%; */
     height: 30rem;
@@ -15,11 +13,10 @@ img {
 
 #mainImage {
   border-radius: .5rem;
-  -webkit-box-shadow: 0 8px 6px -6px black;
-  -moz-box-shadow: 0 8px 6px -6px black;
-  box-shadow: 0 8px 6px -6px black;
+  -webkit-box-shadow: 8px 8px 6px -6px black;
+  -moz-box-shadow: 8px 8px 6px -6px black;
+  box-shadow: 8px 8px 6px -6px black;
 }
-
 #clientPortal {
     text-decoration: none;
     color: white;
@@ -49,7 +46,7 @@ h4 {
     font-weight: light;
 }
 
-#imageLogo {
+#image-logo {
     width: 8rem;
     height: 6rem;
 }
@@ -58,6 +55,7 @@ h4 {
 .image-content-container {
     margin-top: -13.25rem;
     margin-left: 1.25rem;
+    z-index: 9999999;
 }
 
 #company-name {
@@ -86,9 +84,9 @@ h4 {
 
 .right {
   border-radius: 2px;
-  -webkit-box-shadow: 0 8px 6px -6px black;
-  -moz-box-shadow: 0 8px 6px -6px black;
-  box-shadow: 0 8px 6px -6px black;
+  -webkit-box-shadow: 10px 8px 6px -6px black;
+  -moz-box-shadow: 10px 8px 6px -6px black;
+  box-shadow: 10px 8px 6px -6px black;
   background-color: #146E32;
   font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
@@ -121,12 +119,11 @@ h4 {
 }
 
 .staffImgs {
-    width: 10rem;
-    height: 12rem;
-    -webkit-box-shadow: 0 8px 6px -6px black;
-    -moz-box-shadow: 0 8px 6px -6px black;
-    box-shadow: 0 8px 8px -6px black;
-    border: 1px solid white;
+    width: 133px;
+    height: 190px;
+    -webkit-box-shadow: 8px 8px 6px -6px black;
+    -moz-box-shadow: 8px 8px 6px -6px black;
+    box-shadow: 8px 8px 6px -6px black;
 }
 
 .columns {
@@ -138,6 +135,7 @@ h4 {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    margin-top: 2rem;
 }
 
 .footer>h5 {
@@ -183,9 +181,9 @@ h5 {
 .panel {
   position: relative;
   height: 18rem;
-  -webkit-box-shadow: 0 8px 6px -6px black;
-  -moz-box-shadow: 0 8px 6px -6px black;
-       box-shadow: 0 8px 6px -6px black;
+  -webkit-box-shadow: 8px 8px 6px -6px black;
+  -moz-box-shadow: 8px 8px 6px -6px black;
+  box-shadow: 8px 8px 6px -6px black;
 }
 
 .panel a {
@@ -207,9 +205,9 @@ h5 {
   margin-top: -1rem;
   margin-bottom: 1rem;
   border-radius: .5rem;
-  -webkit-box-shadow: 0 8px 6px -6px black;
-  -moz-box-shadow: 0 8px 6px -6px black;
-  box-shadow: 0 8px 6px -6px black;
+  -webkit-box-shadow: 8px 8px 6px -6px black;
+  -moz-box-shadow: 8px 8px 6px -6px black;
+  box-shadow: 8px 8px 6px -6px black;
 }
 
 
@@ -260,6 +258,9 @@ h6 {
     color: white;
 }
 
+.about-firm > p:first-child {
+    text-align: left;
+}
 
 
 .dates {
@@ -316,8 +317,8 @@ h6 {
         margin-left: 2rem;
     }
     .staffImgs {
-        width: 12rem;
-        height: 12rem;
+        width: 133px;
+        height: 199px;
     }
     #mobile-img {
         margin-right: 2rem;
