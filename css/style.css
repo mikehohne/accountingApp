@@ -44,10 +44,9 @@ h4 {
 }
 
 #image-text {
-    font-weight: lighter;
+    font-weight: 200;
     color: white;
     width: 40rem;
-    font-weight: light;
 }
 
 #image-logo {
@@ -190,6 +189,7 @@ h5 {
 
 #home-action {
     color: black;
+    text-decoration: underline;
 }
 #home-action:hover {
     color: grey;
