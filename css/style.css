@@ -38,11 +38,6 @@ h4 {
     text-align: center;
 }
 
-.tax-resources-link {
-    font-weight: bold;
-    color: red;
-}
-
 #contentHeader > p {
     text-align: left;
 }
@@ -137,6 +132,11 @@ h4 {
 
 .columns {
   padding: 0;
+}
+
+.tax-resources-link {
+    text-align: center;
+    color: red;
 }
 
 .footer {
@@ -259,7 +259,15 @@ h5 {
     color: black;
 }
 
+.accordion .accordion-navigation>a {
+    color: red;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
 
+.tax-resources {
+    font-weight: bold;
+    color: red;
+}
 
 #tax-documents {
     font-size: 2rem;
@@ -323,8 +331,8 @@ h6 {
         height: 199px;
     }
     #mobile-img {
-        margin-right: 2rem;
-        margin-left: 2rem;
+        padding-right: 2rem;
+        padding-left: 2rem;
     }
     .title-container {
         display: flex;
@@ -344,7 +352,8 @@ h6 {
     #panel5d-heading,
     #panel6d-heading,
     #panel7d-heading,
-    #panel8d-heading {
+    #panel8d-heading,
+    .tax-resources {
         margin-right: 2rem;
         margin-left: 2rem;
     }
