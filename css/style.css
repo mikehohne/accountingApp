@@ -1,6 +1,5 @@
 body {
     -webkit-font-smoothing: antialiased;
-    font-weight: lighter;
     margin-top: 2rem;
     background-color: rgb(232,232,238);
 }
@@ -9,6 +8,12 @@ img {
     /* max-width: 100%; */
     height: 30rem;
     width: 100%;
+}
+
+
+#main-logo {
+    width: 350px;
+    height: 70px;
 }
 
 #mainImage {
@@ -38,7 +43,6 @@ h4 {
     color: red;
 }
 
-
 #contentHeader > p {
     text-align: left;
 }
@@ -47,16 +51,16 @@ h4 {
     font-weight: 200;
     color: white;
     width: 40rem;
+    position: static; 
 }
 
 #image-logo {
-    width: 8rem;
-    height: 6rem;
+    width: 12rem;
+    height: 10rem;
 }
 
-
 .image-content-container {
-    margin-top: -13.25rem;
+    margin-top: -17.25rem;
     margin-left: 1.25rem;
     z-index: 9999999;
 }
@@ -84,6 +88,7 @@ h4 {
 
 #client {
     margin-right: 1rem;
+    margin-top: 1.3rem;
 }
 
 .right {
@@ -94,6 +99,8 @@ h4 {
   font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
   opacity: .75;
+  margin-top: 1.3rem;
+
 }
 
 .right:hover {
@@ -159,10 +166,6 @@ i {
 
 i:hover {
     color: #04341E;
-}
-
-.fi {
-  font-size: 5rem;
 }
 
 .info-links {
@@ -263,7 +266,6 @@ h5 {
     color: black;
 }
 
-
 #tax-documents {
     font-size: 2rem;
 }
@@ -278,19 +280,6 @@ h6 {
 
 .about-firm > p:first-child {
     text-align: left;
-}
-
-
-.dates {
-    font-size: 1.5rem;
-    font-weight: lighter;
-    font-family: 'Roboto', sans-serif;
-    color: #146E32;
-}
-
-.important-dates {
-    font-weight: lighter;
-    font-size: 1rem;
 }
 
 .information-container {
@@ -309,7 +298,6 @@ h6 {
     margin-right: 2rem;
     margin-left: 2rem;
 }
-
 
 /*MEDIA QUERIES*/
 
