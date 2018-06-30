@@ -176,6 +176,9 @@ i:hover {
     color: #A3B5AD;
 }
 
+.carddemoBasicUsage .card-media {
+  background-color: #999999; }
+
 .social-icons>li {
     display: inline-block;
     margin-right: 3rem;
